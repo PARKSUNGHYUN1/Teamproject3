@@ -17,7 +17,10 @@ public class MyHellowFrame extends JFrame
         
         MyHellowPanelListener mp = new MyHellowPanelListener();
         this.add(mp);
+        mp.setFocusable(true);
+        mp.requestFocus();
         mp.addMouseListener(mp);
+        mp.addKeyListener(mp);
         setVisible(true);
     }
 }
