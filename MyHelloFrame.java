@@ -14,7 +14,7 @@ public class MyHelloFrame extends JFrame
         this.setSize(300, 300);
         this.setTitle("실습_3(2019.11.11)");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        
+
         MyHelloPanelListener mp = new MyHelloPanelListener();
         this.add(mp);
         mp.setFocusable(true);
