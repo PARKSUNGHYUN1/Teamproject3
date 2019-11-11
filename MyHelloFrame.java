@@ -2,20 +2,20 @@
 import javax.swing.*;
 import java.awt.*;
 /**
- * 여기에 MyHellowFrame 클래스 설명을 작성하십시오.
+ * MyHellowFrame 클래스는 JFrame이며 MyHelloPanelListener객체를 생성한다.
  * 
- * @author (작성자 이름) 
- * @version (버전번호나 날짜)
+ * @author (2017605038 스피뎅 크릴, 2018315031 박성현) 
+ * @version (2019.11.11)
  */
-public class MyHellowFrame extends JFrame
+public class MyHelloFrame extends JFrame
 {
-    public MyHellowFrame()
+    public MyHelloFrame()
     {
         this.setSize(300, 300);
         this.setTitle("실습_3(2019.11.11)");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
-        MyHellowPanelListener mp = new MyHellowPanelListener();
+        MyHelloPanelListener mp = new MyHelloPanelListener();
         this.add(mp);
         mp.setFocusable(true);
         mp.requestFocus();

@@ -1,16 +1,16 @@
 import java.awt.event.*;
 import javax.swing.*;
 /**
- * 여기에 MyHellowPanelListener 클래스 설명을 작성하십시오.
+ *  MyHellowPanelListener클래스는 JPanel이며 MouseListener와 KeyListener의 역할을 한다.
  * 
- * @author (작성자 이름) 
- * @version (버전번호나 날짜)
+ * @author (2017605038 스피뎅 크릴, 2018315031 박성현) 
+ * @version (2019.11.11)
  */
-public class MyHellowPanelListener extends JPanel implements MouseListener, KeyListener
+public class MyHelloPanelListener extends JPanel implements MouseListener, KeyListener
 {
     JLabel ml = new JLabel("HELLO");
     
-    public MyHellowPanelListener(){
+    public MyHelloPanelListener(){
         this.add(ml);
     }
     
