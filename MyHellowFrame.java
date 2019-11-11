@@ -14,6 +14,10 @@ public class MyHellowFrame extends JFrame
         this.setSize(300, 300);
         this.setTitle("실습_3(2019.11.11)");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        
+        MyHellowPanelListener mp = new MyHellowPanelListener();
+        this.add(mp);
+        mp.addMouseListener(mp);
         setVisible(true);
     }
 }
